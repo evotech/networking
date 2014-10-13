@@ -1,0 +1,21 @@
+<Alloy>
+	<Collection src="customers"/>
+	<Window class="container">
+		<ListView id="listview" onItemclick="showCustomer" defaultItemTemplate="rowTemp">
+			<Templates>
+				<ItemTemplate name="rowTemp">
+					<View id="outerView">
+						<Label id="lblID" bindId="lblID"></Label>
+						<View id="innerView">
+							<Label id="lblName" bindId="lblName"></Label>
+							<Label id="lblCompany" bindId="lblCompany"></Label>
+						</View>
+					</View>
+				</ItemTemplate>		
+			</Templates>
+			<ListSection dataCollection="customers">
+				<ListItem  lblName:text="{firstName} {lastName}" lblCompany:text="{companyName}" lblID:text="{id}"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

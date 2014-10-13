@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container">
+		<View id="view">
+			<Label id="IDLabel"></Label>
+			<Label id="firstnameLabel"></Label>
+			<Label id="lastnameLabel"></Label>
+			<Label id="emailLabel"></Label>
+			<Label id="companynameLabel"></Label>
+			<Label id="positionLabel"></Label>
+			<Label id="phoneLabel"></Label>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,12 @@
+
+".container" : {
+  backgroundColor: "white"
+}
+
+"#view" :{
+	layout: "vertical"
+}
+
+"#IDLabel" :{
+	top: "20dp"
+}

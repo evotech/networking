@@ -1,0 +1,38 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"#outerView":{
+	layout: "horizontal"
+}
+
+"#innerView":{
+	layout: "vertical",
+	width: "70%",
+	left: "3",
+}
+
+"#lblID":{
+	width: "20%",
+	left: "20dp",
+	font:{
+		fontSize: "25",
+		fontWeight: "bold"
+	}
+}
+
+"#lblName":{
+	width: Titanium.UI.FILL
+}
+
+"#lblCompany":{
+	font: {
+		fontSize: "10"
+	},
+	width: Titanium.UI.FILL
+}
+
+"#listview": {
+	top: "20",
+	separatorColor: "gray"
+	}
