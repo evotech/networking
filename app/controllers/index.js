@@ -4,7 +4,6 @@ var customers = Alloy.Collections.customers;
 custService.getCustomer();
 customers.fetch();
 Ti.API.info(customers.length);
-//custService.deleteDatabase();
 
 function showCustomer(event) {
 
